@@ -8,8 +8,8 @@ const GlobalDataFetch = async () => {
     console.log(courses);
 
     return (
-        <div>
-            <div>
+        <div className='my-6'>
+            <div className='my-10'>
                 <h2>All Courses</h2>
             </div>
             <div className='grid grid-cols-4 gap-3'>

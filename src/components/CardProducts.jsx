@@ -35,7 +35,7 @@ const CardProducts = ({ course }) => {
                 </div>
 
             </div>
-            <Link href={`/all-photos/${courses.id}`}><button className='w-full border cursor-pointer'>View</button></Link>
+            <Link href={`/all-courses`}><button className='w-full border cursor-pointer'>View</button></Link>
 
         </Card>
     );

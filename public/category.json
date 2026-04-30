@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Development",
+        "slug": "development"
+    },
+    {
+        "id": 2,
+        "name": "JavaScript",
+        "slug": "javascript"
+    },
+    {
+        "id": 3,
+        "name": "React",
+        "slug": "react"
+    },
+    {
+        "id": 4,
+        "name": "UI/UX Design",
+        "slug": "ui-ux-design"
+    },
+    {
+        "id": 5,
+        "name": "MERN Stack",
+        "slug": "mern-stack"
+    },
+    {
+        "id": 6,
+        "name": "Python",
+        "slug": "python"
+    },
+    {
+        "id": 7,
+        "name": "Freelancing",
+        "slug": "freelancing"
+    },
+    {
+        "id": 8,
+        "name": "Next.js",
+        "slug": "nextjs"
+    },
+    {
+        "id": 9,
+        "name": "Graphic Design",
+        "slug": "graphic-design"
+    },
+    {
+        "id": 10,
+        "name": "Node.js",
+        "slug": "nodejs"
+    },
+    {
+        "id": 11,
+        "name": "Digital Marketing",
+        "slug": "digital-marketing"
+    },
+    {
+        "id": 12,
+        "name": "Data Analysis",
+        "slug": "data-analysis"
+    }
+]
