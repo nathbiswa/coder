@@ -21,8 +21,8 @@ export default function SignInPage() {
         const password = e.target.password.value;
 
         const { data, error } = await authClient.signIn.email({
-            email,
-            password,
+            email: email,
+            password: password,
             callbackURL: "/",
         });
 
