@@ -31,7 +31,7 @@ export default function SignInPage() {
 
     const handlGoogleSignIn = async () => {
         await authClient.signIn.social({
-            provider: 'google'
+            provider: 'google',
         })
     }
 
