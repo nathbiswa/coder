@@ -2,6 +2,7 @@ import { Card, Chip } from '@heroui/react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { GiWatch } from 'react-icons/gi';
 import { IoMdHeart } from 'react-icons/io';
 import { MdFileDownload } from 'react-icons/md';
 
@@ -31,11 +32,12 @@ const CardProducts = ({ course }) => {
                     {courses.rating}
                 </div>
                 <div className='flex items-center gap-2'>
-                    <MdFileDownload />
+                    <GiWatch />
+                    {courses.duration}
                 </div>
 
             </div>
-            <Link href={`/all-courses`}><button className='w-full border cursor-pointer'>View</button></Link>
+            <Link href={`/all-courses/${courses.id}`}><button className={'w-full border cursor-pointer rounded-full py-2'}>View</button></Link>
 
         </Card>
     );

@@ -43,11 +43,11 @@ const Navbar = () => {
                 <div className="flex gap-4">
                     <ul className="flex items-center gap-4  text-md">
                         <li>
-                            <Link href={"/signin"}><button className="hover:bg-gray-200 bg-black text-white cursor-pointer border rounded-full px-4 py-2">SignIn</button></Link>
+                            <Navlink href={"/signin"}><button className="hover:bg-gray-200 cursor-pointer border rounded-full px-4 py-2">SignIn</button></Navlink>
 
                         </li>
                         <li>
-                            <Link href={"/signup"}> <button className="hover:bg-amber-200 cursor-pointer border rounded-full px-4 py-2">SignUp</button> </Link>
+                            <Navlink href={"/signup"}> <button className="hover:bg-amber-200 cursor-pointer border rounded-full px-4 py-2">SignUp</button> </Navlink>
                         </li>
                     </ul>
                 </div>
