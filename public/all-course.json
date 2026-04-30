@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://i.postimg.cc/example-course1.png",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Advanced JavaScript Mastery",
+    "instructor": "Sarah Smith",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Deep dive into modern JavaScript concepts.",
+    "image": "https://i.postimg.cc/example-course2.png",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "React JS Complete Guide",
+    "instructor": "Michael Lee",
+    "duration": "18 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Build dynamic web apps using React.",
+    "image": "https://i.postimg.cc/example-course3.png",
+    "category": "Development"
+  },
+  {
+    "id": 4,
+    "title": "UI/UX Design Fundamentals",
+    "instructor": "Emily Clark",
+    "duration": "12 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn design principles and user experience basics.",
+    "image": "https://i.postimg.cc/example-course4.png",
+    "category": "Design"
+  },
+  {
+    "id": 5,
+    "title": "Full Stack MERN Project",
+    "instructor": "David Wilson",
+    "duration": "22 hours",
+    "rating": 4.8,
+    "level": "Advanced",
+    "description": "Build real-world apps using MERN stack.",
+    "image": "https://i.postimg.cc/example-course5.png",
+    "category": "Development"
+  },
+  {
+    "id": 6,
+    "title": "Python for Beginners",
+    "instructor": "Sophia Brown",
+    "duration": "14 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Start coding with Python from zero.",
+    "image": "https://i.postimg.cc/example-course6.png",
+    "category": "Programming"
+  },
+  {
+    "id": 7,
+    "title": "Freelancing Success Guide",
+    "instructor": "Chris Evans",
+    "duration": "10 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Learn how to start and grow your freelance career.",
+    "image": "https://i.postimg.cc/example-course7.png",
+    "category": "Business"
+  },
+  {
+    "id": 8,
+    "title": "Next.js Crash Course",
+    "instructor": "Daniel Kim",
+    "duration": "16 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Build fast and SEO-friendly web apps with Next.js.",
+    "image": "https://i.postimg.cc/example-course8.png",
+    "category": "Development"
+  },
+  {
+    "id": 9,
+    "title": "Graphic Design Masterclass",
+    "instructor": "Olivia Martinez",
+    "duration": "13 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Master graphic design tools and techniques.",
+    "image": "https://i.postimg.cc/example-course9.png",
+    "category": "Design"
+  },
+  {
+    "id": 10,
+    "title": "Node.js API Development",
+    "instructor": "James Anderson",
+    "duration": "17 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Create powerful backend APIs with Node.js.",
+    "image": "https://i.postimg.cc/example-course10.png",
+    "category": "Development"
+  },
+  {
+    "id": 11,
+    "title": "Digital Marketing Basics",
+    "instructor": "Emma Taylor",
+    "duration": "11 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Learn SEO, social media, and online marketing.",
+    "image": "https://i.postimg.cc/example-course11.png",
+    "category": "Marketing"
+  },
+  {
+    "id": 12,
+    "title": "Data Analysis with Excel",
+    "instructor": "William Scott",
+    "duration": "9 hours",
+    "rating": 4.4,
+    "level": "Beginner",
+    "description": "Analyze and visualize data using Excel.",
+    "image": "https://i.postimg.cc/example-course12.png",
+    "category": "Data"
+  }
+]
