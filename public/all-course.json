@@ -7,7 +7,7 @@
     "rating": 4.8,
     "level": "Beginner",
     "description": "Learn full-stack web development from scratch.",
-    "image": "https://i.postimg.cc/example-course1.png",
+    "image": "https://i.ibb.co.com/46zKm2s/web-develop.jpg",
     "category": "Development"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 4.7,
     "level": "Intermediate",
     "description": "Deep dive into modern JavaScript concepts.",
-    "image": "https://i.postimg.cc/example-course2.png",
+    "image": "https://i.ibb.co.com/BHvwjRdj/java-Script.jpg",
     "category": "Development"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 4.9,
     "level": "Intermediate",
     "description": "Build dynamic web apps using React.",
-    "image": "https://i.postimg.cc/example-course3.png",
+    "image": "https://i.ibb.co.com/fYBQFbfF/react-3.jpg",
     "category": "Development"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 4.6,
     "level": "Beginner",
     "description": "Learn design principles and user experience basics.",
-    "image": "https://i.postimg.cc/example-course4.png",
+    "image": "https://i.ibb.co.com/C5216QJG/ui-ux-4.webp",
     "category": "Design"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 4.8,
     "level": "Advanced",
     "description": "Build real-world apps using MERN stack.",
-    "image": "https://i.postimg.cc/example-course5.png",
+    "image": "https://i.ibb.co.com/XZ8C0b7y/Roadmap-to-Mern-stack-developer-5.webp",
     "category": "Development"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 4.7,
     "level": "Beginner",
     "description": "Start coding with Python from zero.",
-    "image": "https://i.postimg.cc/example-course6.png",
+    "image": "https://i.ibb.co.com/p68zGMTw/python-6.jpg",
     "category": "Programming"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 4.5,
     "level": "Beginner",
     "description": "Learn how to start and grow your freelance career.",
-    "image": "https://i.postimg.cc/example-course7.png",
+    "image": "https://i.ibb.co.com/TMQhNZ4W/Freelancing-success-7.jpg",
     "category": "Business"
   },
   {
@@ -84,7 +84,7 @@
     "rating": 4.8,
     "level": "Intermediate",
     "description": "Build fast and SEO-friendly web apps with Next.js.",
-    "image": "https://i.postimg.cc/example-course8.png",
+    "image": "https://i.ibb.co.com/hFZTNvQz/Nextjs-8.jpg",
     "category": "Development"
   },
   {
@@ -95,7 +95,7 @@
     "rating": 4.6,
     "level": "Beginner",
     "description": "Master graphic design tools and techniques.",
-    "image": "https://i.postimg.cc/example-course9.png",
+    "image": "https://i.ibb.co.com/nsJDcJCB/graphicdesign-9.webp",
     "category": "Design"
   },
   {
@@ -106,7 +106,7 @@
     "rating": 4.7,
     "level": "Intermediate",
     "description": "Create powerful backend APIs with Node.js.",
-    "image": "https://i.postimg.cc/example-course10.png",
+    "image": "https://i.ibb.co.com/BHgmnByP/Mongodb-10.png",
     "category": "Development"
   },
   {
@@ -117,7 +117,7 @@
     "rating": 4.5,
     "level": "Beginner",
     "description": "Learn SEO, social media, and online marketing.",
-    "image": "https://i.postimg.cc/example-course11.png",
+    "image": "https://i.ibb.co.com/bgRc0gC2/Digitalmarketing-11.webp",
     "category": "Marketing"
   },
   {
@@ -128,7 +128,7 @@
     "rating": 4.4,
     "level": "Beginner",
     "description": "Analyze and visualize data using Excel.",
-    "image": "https://i.postimg.cc/example-course12.png",
+    "image": "https://i.ibb.co.com/6JD52bqJ/Excel-data-analysis-12.webp",
     "category": "Data"
   }
 ]
