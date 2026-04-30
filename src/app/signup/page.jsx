@@ -1,5 +1,5 @@
 "use client";
-// import { authClient } from "@/lib/auth-client";
+import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
 import {
     Button,
@@ -19,26 +19,32 @@ export default function SignUpPage() {
     const router = useRouter()
 
     const onSubmit = async (e) => {
-        // e.preventDefault();
+        e.preventDefault();
 
-        // const name = e.target.name.value;
-        // const image = e.target.image.value;
-        // const email = e.target.email.value;
-        // const password = e.target.password.value;
+        const name = e.target.name.value;
+        const image = e.target.image.value;
+        const email = e.target.email.value;
+        const password = e.target.password.value;
 
-        // const { data, error } = await authClient.signUp.email({
-        //     name,
-        //     email,
-        //     password,
-        //     image,
-        // })
+        console.log(name, image, email, password);
+
+        const { data, error } = await authClient.signUp.email({
+            name: name,
+            email: email,
+            password: password,
+            image: image
+        })
 
 
-        // console.log({ data, error })
+        console.log({ data, error })
 
-        // if (!error) {
-        //     router.push('/')
-        // }
+        if (!error) {
+            router.push('/signin')
+            alert(error.message);
+        }
+        if (data) {
+            alert("Sign Up Successfull");
+        }
 
     };
 

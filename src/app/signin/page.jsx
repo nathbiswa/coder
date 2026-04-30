@@ -1,5 +1,5 @@
 "use client";
-// import { authClient } from "@/lib/auth-client";
+import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
 import {
     Button,
@@ -20,13 +20,13 @@ export default function SignInPage() {
         const email = e.target.email.value;
         const password = e.target.password.value;
 
-        // const { data, error } = await authClient.signIn.email({
-        //   email,
-        //   password,
-        //   callbackURL: "/",
-        // });
+        const { data, error } = await authClient.signIn.email({
+            email,
+            password,
+            callbackURL: "/",
+        });
 
-        // console.log({ data, error });
+        console.log({ data, error });
     };
 
     const handlGoogleSignIn = async () => {
