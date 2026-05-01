@@ -36,11 +36,10 @@ export default function SignUpPage() {
         })
 
 
-        console.log({ data, error })
+        console.log(data, error)
 
         if (!error) {
             router.push('/signin')
-            alert(error.message);
         }
         if (data) {
             alert("Sign Up Successfull");
