@@ -13,6 +13,7 @@ import {
 } from "@heroui/react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { toast } from "react-toastify";
 
 export default function SignUpPage() {
 
@@ -40,9 +41,10 @@ export default function SignUpPage() {
 
         if (!error) {
             router.push('/signin')
+            toast.success('SigmUP successfull');
         }
-        if (data) {
-            alert("Sign Up Successfull");
+        if (error) {
+            toast.error(error.message);
         }
 
     };

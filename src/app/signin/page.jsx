@@ -27,7 +27,7 @@ export default function SignInPage() {
             callbackURL: "/",
         });
 
-        if (!error) {
+        if (data) {
             toast.success('Login successfull');
         }
 
