@@ -8,7 +8,7 @@ import { MdFileDownload } from 'react-icons/md';
 
 const CardProducts = ({ course }) => {
     const courses = course;
-    console.log(courses, "courses");
+    // console.log(courses, "courses");
 
     return (
         <Card className='border rounded-xl'>

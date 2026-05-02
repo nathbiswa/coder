@@ -45,7 +45,7 @@ const Navbar = () => {
                         <Navlink href={"/all-courses"}> <button className="cursor-pointer border rounded-full px-4 py-2">Courses</button></Navlink>
                     </li>
                     <li>
-                        <Navlink href={"/profile"}><button className="cursor-pointer border rounded-full px-4 py-2">Profile</button></Navlink>
+                        <Navlink href={"/profile"}><button className="cursor-pointer border rounded-full px-4 py-2">My Profile</button></Navlink>
                     </li>
 
 

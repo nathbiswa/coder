@@ -1,17 +1,33 @@
-// "use client"
+"use client"
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { CiPlay1 } from 'react-icons/ci';
+import { useEffect, useRef } from "react"
+import gsap from "gsap"
+
+
 
 const Banner = () => {
+    const titleRef = useRef()
+    const descRef = useRef()
+    const btnRef = useRef()
+    const imgRef = useRef()
+
+    useEffect(() => {
+        gsap.from(titleRef.current, { y: 80, opacity: 0, duration: 1 })
+        gsap.from(descRef.current, { y: 40, opacity: 0, delay: 0.3 })
+        gsap.from(btnRef.current, { scale: 0.8, opacity: 0, delay: 0.6 })
+        gsap.from(imgRef.current, { scale: 1.2, opacity: 0, duration: 1 })
+    }, [])
+
     return (
         <div className='bg-gray-800 relative'>
             <div className='grid grid-cols-2 justify-between items-center p-10'>
                 <div className='text-white space-y-2 p-3 flex-2'>
                     <h3 className='font-semibold text-xl'>LEARNING EXCELLENCE</h3>
-                    <h1 className='font-bold text-4xl'>The Best Free Online <br /> Courses Of All Time</h1>
-                    <p className='text-md text-gray-500'>
+                    <h1 ref={titleRef} className='font-bold text-4xl'>The Best Propuler Online <br /> Courses Of All Time</h1>
+                    <p ref={descRef} className='text-md text-gray-500'>
                         Start Your Learning Journey Today
                         Discover high-quality courses and build the future you deserve.
                         Learn in-demand skills with expert-led courses designed to
@@ -19,17 +35,17 @@ const Banner = () => {
 
                     <div className='flex gap-4 mt-10'>
                         <Link href={'/all-courses'}>
-                            <button className='text-md border bg-amber-300 text-white px-4 py-2 rounded-full'>Explore Course</button>
+                            <button ref={btnRef} className='text-md border bg-amber-300 text-white px-4 py-2 rounded-full'>Explore Course</button>
                         </Link>
 
                         <div>
-                            <button className='text-md border px-4 py-2 rounded-full flex items-center gap-0.5'> <CiPlay1 className='text-white' /><span>Video Watch</span></button>
+                            <button ref={btnRef} className='text-md border px-4 py-2 rounded-full flex items-center gap-0.5'> <CiPlay1 className='text-white' /><span>Video Watch</span></button>
                         </div>
 
                     </div>
                 </div>
                 <div className=' w-[300px] relative mx-auto'>
-                    <Image
+                    <Image ref={imgRef}
                         src={"/banner-pic.png"}
                         alt="logo"
                         loading="eager"
