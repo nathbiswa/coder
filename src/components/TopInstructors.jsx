@@ -28,11 +28,11 @@ const card = {
 
 const TopInstructors = () => {
     return (
-        <div className='my-30 border shadow-2xl'>
+        <div className='my-10 md:my-30 border shadow-2xl'>
 
-            <div className='space-y-2 w-6/12 mx-auto text-center my-4'>
-                <h1 className='text-3xl font-bold'>Our Top Instructors</h1>
-                <p className='text-sm text-gray-400'>The most populer trainer will train you</p>
+            <div className='md:space-y-2 w-full md:w-6/12 mx-auto text-center my-4'>
+                <h1 className='text-[14] md:text-3xl font-bold'>Our Top Instructors</h1>
+                <p className='text-[14px] md:text-md text-gray-400'>The most populer trainer will train you</p>
             </div>
 
             <motion.div

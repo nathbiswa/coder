@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import { GiWatch } from 'react-icons/gi';
 import { IoMdHeart } from 'react-icons/io';
-import { MdFileDownload } from 'react-icons/md';
+
 
 const CardProducts = ({ course }) => {
     const courses = course;
@@ -24,7 +24,10 @@ const CardProducts = ({ course }) => {
             </div>
 
             <div>
-                <h2>{courses.title}</h2>
+                <h2 className='text-xl font-bold'>{courses.title}</h2>
+            </div>
+            <div>
+                <h2 className='text-xl'>Inatructor: {courses.instructor}</h2>
             </div>
             <div className='flex justify-between items-center'>
                 <div className='flex items-center gap-2'>
@@ -37,7 +40,7 @@ const CardProducts = ({ course }) => {
                 </div>
 
             </div>
-            <Link href={`/all-courses/${courses.id}`}><button className={'w-full border cursor-pointer rounded-full py-2'}>View</button></Link>
+            <Link href={`/all-courses/${courses.id}`}><button className={'w-full border cursor-pointer rounded-full py-2'}>View Details </button></Link>
 
         </Card>
     );
