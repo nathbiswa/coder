@@ -17,7 +17,7 @@ const LearningTips = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-2'>
                 <div className='bg-amber-100 flex-1 rounded-2xl'>
                     <div className='px-4 mt-5'>
-                        <h1 className='flex items-center gap-3'> <span className='bg-amber-200  p-4 rounded-full'><PiBookOpenText className='text-amber-600 h-[30px] w-[30px] ' /></span><span className='text-[16px] md:text-3xl text-yellow-600'>Dtudy Techniques</span></h1>
+                        <h1 className='flex items-center gap-3'> <span className='bg-amber-200  p-4 rounded-full'><PiBookOpenText className='text-amber-600 h-[30px] w-[30px] ' /></span><span className='text-[16px] md:text-3xl text-yellow-600'>Study Techniques</span></h1>
                     </div>
                     <div className='px-12 py-2'>
                         <ul>
