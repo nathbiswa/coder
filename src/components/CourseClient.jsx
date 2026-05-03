@@ -13,11 +13,11 @@ const CoursesClient = ({ courses }) => {
     return (
         <div className='my-10'>
             <div className="flex justify-between my-4">
-                <h2 className="text-3xl font-bold">All Courses</h2>
+                <h2 className="text-[18px] ml-2 md:ml-0 md:text-3xl font-bold">All Courses</h2>
 
                 <input
                     onChange={(e) => setSearch(e.target.value)}
-                    className='border p-2 rounded-full text-xl'
+                    className='border p-1 md:p-2 rounded-full text-[12px] md:text-xl'
                     type="text"
                     placeholder='Search your courses'
                 />
