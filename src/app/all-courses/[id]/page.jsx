@@ -14,12 +14,12 @@ const CourseDetailesPage = async ({ params }) => {
     console.log(resPectCourse, "Respected Course");
     return (
         <div>
-            <div className="text-center mt-20">
-                <h1 className="text-3xl font-bold text-shadow-gray-600">Read details course summary!</h1>
+            <div className="text-center mt-5 md:mt-20">
+                <h1 className="text-[18px] md:text-3xl font-bold text-shadow-gray-600">Read details course summary!</h1>
             </div>
-            <div className="max-w-6/12 mx-auto border shadow-xl mt-4 rounded-xl">
+            <div className=" w-full md:max-w-6/12 mx-auto border shadow-xl mt-4 rounded-xl">
                 <Card className="">
-                    <div className='relative w-full h-[350px] aspect-square'>
+                    <div className='relative w-full md:h-[350px] aspect-square'>
                         <Image src={resPectCourse?.image}
                             fill
                             alt={resPectCourse.title}
