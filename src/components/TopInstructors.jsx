@@ -47,7 +47,7 @@ const TopInstructors = () => {
                 <motion.div variants={card} whileHover={{ scale: 1.05, y: -10 }}>
                     <Card>
                         <div className='relative w-full aspect-square'>
-                            <Image src={'/instructor-1.jpg'} fill alt="image" className='rounded-xl object-cover' />
+                            <Image src={'/instructor-1.jpg'} fill alt="image" className='rounded-xl object-cover' sizes="(max-width: 768px) 100vw, 33vw" />
                         </div>
                         <div className='flex justify-between items-center'>
                             <h1 className='text-2xl font-bold'>Asly Queen</h1>
@@ -68,7 +68,7 @@ const TopInstructors = () => {
                 <motion.div variants={card} whileHover={{ scale: 1.05, y: -10 }}>
                     <Card>
                         <div className='relative w-full aspect-square'>
-                            <Image src={'/instructor-2.jpg'} fill alt="image" className='rounded-xl object-cover' />
+                            <Image src={'/instructor-2.jpg'} fill alt="image" className='rounded-xl object-cover' sizes="(max-width: 768px) 100vw, 33vw" />
                         </div>
                         <div className='flex justify-between items-center'>
                             <h1 className='text-2xl font-bold'>keen Pter</h1>
@@ -89,7 +89,7 @@ const TopInstructors = () => {
                 <motion.div variants={card} whileHover={{ scale: 1.05, y: -10 }}>
                     <Card>
                         <div className='relative w-full aspect-square'>
-                            <Image src={'/instructor-3.jpg'} fill alt="image" className='rounded-xl object-cover' />
+                            <Image src={'/instructor-3.jpg'} fill alt="image" className='rounded-xl object-cover' sizes="(max-width: 768px) 100vw, 33vw" />
                         </div>
                         <div className='flex justify-between items-center'>
                             <h1 className='text-2xl font-bold'>Alison Breekes</h1>
