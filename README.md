@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+* Project Name:
+## Coder
 
-## Getting Started
+* Purpose this Project: 
+- For dreamers who want to secure their future through coding, Coder will be an excellent means of fulfilling their dreams.
 
-First, run the development server:
+* Repo Link: 
+- https://github.com/nathbiswa/coder
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* Live Link: 
+- https://coder-two-neon.vercel.app
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Key Features:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Course System
+- Browse all courses
+- View detailed course information
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Authentication
+- User Sign Up / Sign In
+- Secure session handling
+- Profile management
 
-## Learn More
+# Responsive Design
+- Fully mobile, tablet, and desktop friendly
 
-To learn more about Next.js, take a look at the following resources:
+# Modern UI/UX
+- Smooth animations (GSAP / Framer Motion)
+- Clean and minimal design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Setup environment variables
+- MONGODB_URI=your_mongodb_uri 
+- GOOGLE_CLIENT_ID=your_google_client_id 
+- GOOGLE_CLIENT_SECRET=your_google_client_secret
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Author
+## Biswa Nath Roy
+- Frontend Developer
 
-## Deploy on Vercel
+# npm packages 
+- npm run dev
+- Nextjs app router
+- Batter Auth
+- Mongodb
+- React Icon
+- React toast
+- Tailwind
+- HeroUi
+- Gasp
+- Lenis
+- Framar Motion
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+
+
