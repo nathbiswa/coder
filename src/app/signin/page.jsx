@@ -11,7 +11,9 @@ import {
     Label,
     TextField,
 } from "@heroui/react";
+import Link from "next/link";
 import { GrGoogle } from "react-icons/gr";
+import { SiGnuprivacyguard } from "react-icons/si";
 import { toast } from "react-toastify";
 
 export default function SignInPage() {
@@ -104,6 +106,9 @@ export default function SignInPage() {
                     </Button>
                 </div>
             </Form>
+
+            <p className="text-center">Or</p>
+            <Link href={'/signup'}><Button variant="outline" className={'w-full'}><SiGnuprivacyguard /> Resister</Button> </Link>
 
             <p className="text-center">Or</p>
 

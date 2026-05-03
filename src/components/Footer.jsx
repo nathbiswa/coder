@@ -42,10 +42,11 @@ const Footer = () => {
                             A modern e-learning platform designed to provide interactive courses, expert guidance, and flexible learning for students and professionals.
                         </p>
                         <ul className="flex items-center gap-3">
-                            <li className="p-3 bg-amber-300 rounded-full"><FaFacebook /></li>
-                            <li className="p-3 bg-amber-300 rounded-full"><FaTwitter /></li>
-                            <li className="p-3 bg-amber-300 rounded-full"><FaWhatsapp /></li>
-                            <li className="p-3 bg-amber-300 rounded-full"><FaInstagram /></li>
+                            <Link href={'https://www.facebook.com'}>  <li className="p-3 bg-amber-300 rounded-full"><FaFacebook /></li></Link>
+                            <Link href={'https://twitter.com'}> <li className="p-3 bg-amber-300 rounded-full"><FaTwitter /></li></Link>
+                            <Link href={'https://whatsapp.com'}> <li className="p-3 bg-amber-300 rounded-full"><FaWhatsapp /></li></Link>
+                            <Link href={'https://instagram.com'}> <li className="p-3 bg-amber-300 rounded-full"><FaInstagram /></li></Link>
+
                         </ul>
                     </div>
 
@@ -101,7 +102,7 @@ const Footer = () => {
                     {/* Company */}
                     <div>
                         <h3 className="text-sm font-semibold text-black dark:text-white mb-4">
-                            Company
+                            Contact Us
                         </h3>
                         <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
                             <li>

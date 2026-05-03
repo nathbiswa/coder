@@ -1,0 +1,68 @@
+[
+    {
+        "id": 13,
+        "title": "Advanced React & Next.js Mastery",
+        "instructor": "Sarah Johnson",
+        "duration": "18 hours",
+        "rating": 4.9,
+        "level": "Advanced",
+        "description": "Build production-ready apps with React and Next.js.",
+        "image": "https://www.nettechindia.com/img/all-courses/react-js-tutorial.webp",
+        "category": "Development"
+    },
+    {
+        "id": 14,
+        "title": "UI/UX Design Fundamentals",
+        "instructor": "Michael Lee",
+        "duration": "12 hours",
+        "rating": 4.7,
+        "level": "Beginner",
+        "description": "Master design principles and create stunning interfaces.",
+        "image": "https://i.ibb.co.com/vxrrBh77/image.png",
+        "category": "Design"
+    },
+    {
+        "id": 15,
+        "title": "Digital Marketing Complete Guide",
+        "instructor": "Emily Carter",
+        "duration": "15 hours",
+        "rating": 4.6,
+        "level": "Intermediate",
+        "description": "Learn SEO, social media marketing, and ads strategy.",
+        "image": "https://i.ibb.co.com/V0YRjKM0/image.png",
+        "category": "Marketing"
+    },
+    {
+        "id": 16,
+        "title": "Python for Data Science",
+        "instructor": "David Wilson",
+        "duration": "22 hours",
+        "rating": 4.8,
+        "level": "Intermediate",
+        "description": "Analyze data and build models using Python.",
+        "image": "https://i.ibb.co.com/JRV7yzMP/image.png",
+        "category": "Data Science"
+    },
+    {
+        "id": 17,
+        "title": "Freelancing & Remote Career Guide",
+        "instructor": "Alex Brown",
+        "duration": "10 hours",
+        "rating": 4.5,
+        "level": "Beginner",
+        "description": "Start earning online with freelancing platforms.",
+        "image": "https://i.ibb.co.com/Jw99GnNJ/image.png",
+        "category": "Business"
+    },
+    {
+        "id": 18,
+        "title": "Mobile App Development with Flutter",
+        "instructor": "Chris Martin",
+        "duration": "19 hours",
+        "rating": 4.7,
+        "level": "Intermediate",
+        "description": "Build cross-platform mobile apps using Flutter.",
+        "image": "https://i.ibb.co.com/SwjFmrLj/image.png",
+        "category": "Development"
+    }
+]
