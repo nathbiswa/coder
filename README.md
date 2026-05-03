@@ -1,16 +1,16 @@
-* Project Name:
-## Coder
+## Project Name:
+# Coder
 
-* Purpose this Project: 
+## Purpose this Project: 
 - For dreamers who want to secure their future through coding, Coder will be an excellent means of fulfilling their dreams.
 
-* Repo Link: 
+# Repo Link: 
 - https://github.com/nathbiswa/coder
 
-* Live Link: 
+# Live Link: 
 - https://coder-two-neon.vercel.app
 
-* Key Features:
+## Key Features:
 
 # Course System
 - Browse all courses
