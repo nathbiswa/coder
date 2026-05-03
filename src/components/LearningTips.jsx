@@ -27,8 +27,8 @@ const LearningTips = () => {
                                         <PiBrainDuotone className='text-amber-600 h-[30px] w-[30px] ' />
                                     </span>
                                     <div>
-                                        <span className='text-xl text-yellow-400'>1. Active Recall</span>
-                                        <p>Test your self insted of redaing <br />
+                                        <span className='text-[14px] md:text-xl text-yellow-400'>1. Active Recall</span>
+                                        <p className='text-[10px] md:text-[16px]'>Test your self insted of redaing <br />
                                             Use flashcard of try to explain this topic <br />
                                             in your one word</p>
                                     </div>
@@ -41,8 +41,8 @@ const LearningTips = () => {
                                         <FaRegCalendarAlt className='text-amber-600 h-[30px] w-[30px] ' />
                                     </span>
                                     <div>
-                                        <span className='text-xl text-yellow-400'>2. Respact Repetion</span>
-                                        <p>Review materials at inreasing intervais <br />
+                                        <span className='text-[12px] md:text-xl text-yellow-400'>2. Respact Repetion</span>
+                                        <p className='text-[10px] md:text-[16px]'>Review materials at inreasing intervais <br />
                                             It help more information from shor-turm. <br />
                                             to long-turm memory</p>
                                     </div>
@@ -55,8 +55,8 @@ const LearningTips = () => {
                                         <GoStopwatch className='text-amber-600 h-[30px] w-[30px] ' />
                                     </span>
                                     <div>
-                                        <span className='text-xl text-yellow-400'>3. Promodoro Technique</span>
-                                        <p>Study for 25 minutes,take a 5-minutes breack. <br />
+                                        <span className='text-[12px] md:text-xl text-yellow-400'>3. Promodoro Technique</span>
+                                        <p className='text-[10px] md:text-[16px]'>Study for 25 minutes,take a 5-minutes breack. <br />
                                             After 4 cycle,take of longer breack of <br />
                                             20-30 minutes</p>
                                     </div>
@@ -69,8 +69,8 @@ const LearningTips = () => {
                                         <LuNotebookPen className='text-amber-600 h-[30px] w-[30px] ' />
                                     </span>
                                     <div>
-                                        <span className='text-xl text-yellow-400'>4. Note Macking</span>
-                                        <p>Test your self insted of redaing <br />
+                                        <span className='text-[12px] md:text-xl text-yellow-400'>4. Note Macking</span>
+                                        <p className='text-[10px] md:text-[16px]'>Test your self insted of redaing <br />
                                             Use flashcard of try to explain this topic <br />
                                             in your one word</p>
                                     </div>
@@ -99,8 +99,8 @@ const LearningTips = () => {
                                         <FcPlanner className='text-green-600 h-[30px] w-[30px] ' />
                                     </span>
                                     <div>
-                                        <span className='text-xl text-green-400'>1. Daily Plan</span>
-                                        <p>Put your plan in daily advanced <br />
+                                        <span className='text-[12px] md:text-xl text-green-400'>1. Daily Plan</span>
+                                        <p className='text-[10px] md:text-[16px]'>Put your plan in daily advanced <br />
                                             List your task set time bloks <br />
                                             for each</p>
                                     </div>
@@ -113,8 +113,8 @@ const LearningTips = () => {
                                         <TbTargetArrow className='text-green-600 h-[30px] w-[30px] ' />
                                     </span>
                                     <div>
-                                        <span className='text-xl text-green-400'>2. Priority System</span>
-                                        <p>Do impotent task and deficalt task first <br />
+                                        <span className='text-[12px] md:text-xl text-green-400'>2. Priority System</span>
+                                        <p className='text-[10px] md:text-[16px]'>Do impotent task and deficalt task first <br />
                                             Use priority level, high, medium and low.
                                         </p>
                                     </div>
@@ -127,8 +127,8 @@ const LearningTips = () => {
                                         <GoStopwatch className='text-green-600 h-[30px] w-[30px] ' />
                                     </span>
                                     <div>
-                                        <span className='text-xl text-green-400'>3. Eliminate Distractions</span>
-                                        <p>Trun on notification, stay way from. <br />
+                                        <span className='text-[12px] md:text-xl text-green-400'>3. Eliminate Distractions</span>
+                                        <p className='text-[10px] md:text-[16px]'>Trun on notification, stay way from. <br />
                                             Social media while studing </p>
                                     </div>
 
@@ -140,8 +140,8 @@ const LearningTips = () => {
                                         <LuNotebookPen className='text-green-600 h-[30px] w-[30px] ' />
                                     </span>
                                     <div>
-                                        <span className='text-xl text-green-400'>4. Consistency is key</span>
-                                        <p>Study at same time everyday <br />
+                                        <span className='text-[12px] md:text-xl text-green-400'>4. Consistency is key</span>
+                                        <p className='text-[10px] md:text-[16px]'>Study at same time everyday <br />
                                             Consistecy create disciplain<br />
                                             and better results</p>
                                     </div>
