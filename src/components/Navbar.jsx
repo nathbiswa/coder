@@ -68,7 +68,7 @@ const Navbar = () => {
     return (
         <div
             ref={navRef}
-            className="border-b sticky top-0 z-50 px-2 py-2 bg-white/80 backdrop-blur-md"
+            className="border-b px-2 py-2 bg-white/80 backdrop-blur-md"
         >
             <nav className="flex justify-between items-center max-w-5xl md:max-w-7xl mx-auto w-full">
 
